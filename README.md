@@ -4,6 +4,10 @@ My personal guidelines writing papers - things that come up again and again. Cri
 
 Suggest extra guidelines in issues.
 
+## General [G]
+
+- **G0**: Keep It Stupid Simple. Make simple things simple and complicated things understandable. Reduce to simple ideas / first principles, even if this requires breaking things down in several steps.
+
 ## Style [S]
 
 - **S0**: avoid strong adjectives / hyperboles, especially if vague: i.e. avoid qualificators like "very", "the most", etc, if not there is a clear factual reason for this (for example, comparing a few cases, and finding that one is "the most" of them is fine; saying that some diffuse / unspecific "thing" is "the most", is not fine).
