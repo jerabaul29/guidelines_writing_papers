@@ -8,7 +8,7 @@ Suggest extra guidelines in issues.
 
 - **S0**: avoid strong adjectives / hyperboles, especially if vague: i.e. avoid qualificators like "very", "the most", etc, if not there is a clear factual reason for this (for example, comparing a few cases, and finding that one is "the most" of them is fine; saying that some diffuse / unspecific "thing" is "the most", is not fine).
 - **S1**: use present tense, avoid complex present / future / past mix in a paper: i.e., write "we show", "we do", etc.
-- **S2**: write short sentences, with simple structure: "Subject, Verb, Complement". Keep 1 idea per sentence. Keep long sentences into shorter sentences.
+- **S2**: write short sentences, with simple structure: "Subject, Verb, Complement". Keep 1 idea per sentence. Cut long sentences into shorter sentences.
 - **S3**: use consistent terminology. In literature, we like using different words to describe the same "thing", to avoid heavy, ugly repetitions. In scientific writing, the simpler the better, and a given "thing" should be referred consistently by the same word(s), even if this leads to repetitions.
 
 ## Figures [F]
