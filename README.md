@@ -19,14 +19,23 @@ Suggest extra guidelines in issues.
 ## Figures [F]
 
 - **F1**: have detailed captions for figures (and Tables). Ideally, it should be possible for someone with knowledge of the field to read just the abstract, conclusion, and figures + captions, and get a good understanding of the paper and results. Have detailed captions that have all the information needed to read and understand the figures without the need to read the text fishing for information, even if this results in long captions. Also have a short word of discussion (the "why" / "what this shows"), to explain what this figure shows and what its point is.
+- **F2**: make sure the figures are easy to read: large enough font, not overcrowded etc. Make sure to use good axis labels, lines labels, to take advantage of colors, markers, sizes, background shade, etc.
 
 ## Appendix [A]
 
 ## Methodology [M]
 
+- **M1**: ideally, the methodology section should be enough to reproduce the methodology paper. In practice, it may be hard to condense many technical details in a methodology section. If this is the case, consider releasing code and data as supplementary materials.
+
+- **M2**: if the methodology is better explained with a figure, create a figure to illutrate.
+
+- **M3**: if there are many metaparameters used in the methodology, summarize these in a table.
+
 ## References [R]
 
 ## Abbreviations [B]
+
+- **B1**: define the abbreviations the first time they are met, like: "Deep Reinforcement Learning (DRL)". After that, the DRL abbreviation can be used. Note that it may be a good idea to re-define the abbreviations in critical parts of the text, i.e. the conclusion, so that it can be read by itself without the need to look through the whole paper looking for their meaning.
 
 ## Impact [I]
 
