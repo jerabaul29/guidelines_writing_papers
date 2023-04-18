@@ -8,6 +8,7 @@ Suggest extra guidelines in issues.
 
 - **G0**: Keep It Stupid Simple. Make simple things simple and complicated things understandable. Reduce to simple ideas / first principles, even if this requires breaking things down in several steps.
 - **G1**: avoid overly heavy boilerplate. There has been a tradition for "writing everything assuming no backgroud knowledge" in some research fields, and as a consequence some articles end up containing lots of boilerplate. Try to refer to reference sources instead, and explain the main lines, but not the details, of background information that has been described again and again in the past.
+- **G3**: Be brief, be bright, be gone: try to convey the exact message you want to convey as effectively as possible. A shorter paper is easier to read, understand, etc.
 
 ## Style [S]
 
