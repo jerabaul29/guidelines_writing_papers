@@ -8,7 +8,8 @@ Suggest extra guidelines in issues.
 
 - **G0**: Keep It Stupid Simple. Make simple things simple and complicated things understandable. Reduce to simple ideas / first principles, even if this requires breaking things down in several steps.
 - **G1**: avoid overly heavy boilerplate. There has been a tradition for "writing everything assuming no backgroud knowledge" in some research fields, and as a consequence some articles end up containing lots of boilerplate. Try to refer to reference sources instead, and explain the main lines, but not the details, of background information that has been described again and again in the past.
-- **G3**: Be brief, be bright, be gone: try to convey the exact message you want to convey as effectively as possible. A shorter paper is easier to read, understand, etc.
+- **G3**: Be brief, be bright, be gone: try to convey the exact message you want to convey as effectively as possible. A shorter paper is easier to read, understand, etc. You goal is to convey your message, as clearly and effectively as possible. Do not waste your reader's time with useless details and un-necessary information.
+- **G4**: Have a clear story / red line.
 
 ## Style [S]
 
@@ -16,6 +17,7 @@ Suggest extra guidelines in issues.
 - **S1**: use present tense, avoid complex present / future / past mix in a paper: i.e., write "we show", "we do", etc.
 - **S2**: write short sentences, with simple structure: "Subject, Verb, Complement". Keep 1 idea per sentence. Cut long sentences into shorter sentences.
 - **S3**: use consistent terminology. In literature, we like using different words to describe the same "thing", to avoid heavy, ugly repetitions. In scientific writing, the simpler the better, and a given "thing" should be referred consistently by the same word(s), even if this leads to repetitions.
+- **S4**: write in "terse, professional" English: avoid spoken English, familiar expressions.
 
 ## Figures [F]
 
