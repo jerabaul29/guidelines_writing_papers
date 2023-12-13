@@ -18,20 +18,25 @@ Suggest extra guidelines in issues.
 - **S2**: write short sentences, with simple structure: "Subject, Verb, Complement". Keep 1 idea per sentence. Cut long sentences into shorter sentences.
 - **S3**: use consistent terminology. In literature, we like using different words to describe the same "thing", to avoid heavy, ugly repetitions. In scientific writing, the simpler the better, and a given "thing" should be referred consistently by the same word(s), even if this leads to repetitions.
 - **S4**: write in "terse, professional" English: avoid spoken English, familiar expressions.
+- **S5**: use simple English, avoid complex / unusual words: most of your readers will not be native English speakers, so the simpler vocabulary you use, the easier to read.
+- **S6**: equations are part of the sentence: make sure that they end with a "."., of if with a ",", that the sentence continues on the next line.
 
 ## Figures [F]
 
 - **F1**: have detailed captions for figures (and Tables). Ideally, it should be possible for someone with knowledge of the field to read just the abstract, conclusion, and figures + captions, and get a good understanding of the paper and results. Have detailed captions that have all the information needed to read and understand the figures without the need to read the text fishing for information, even if this results in long captions. Also have a short word of discussion (the "why" / "what this shows"), to explain what this figure shows and what its point is.
 - **F2**: make sure the figures are easy to read: large enough font, not overcrowded etc. Make sure to use good axis labels, lines labels, to take advantage of colors, markers, sizes, background shade, etc.
+- **F3**: make sure all figures and tables are referred to in the text.
 
 ## Appendix [A]
+
+- **A1**: use Appendixes for boilerplate but necessary content (for example, following request by reviewer).
+- **A2**: use Appendixes to present technical details that are important but would otherwise disturb the flow of the reading.
+- **A3**: if releasing code / data (hopefully doing it!), consider having a specific Appendix describing these and linking to the resources, so that this "stands out" and is not just hidden deep in the main article body.
 
 ## Methodology [M]
 
 - **M1**: ideally, the methodology section should be enough to reproduce the methodology paper. In practice, it may be hard to condense many technical details in a methodology section. If this is the case, consider releasing code and data as supplementary materials.
-
 - **M2**: if the methodology is better explained with a figure, create a figure to illutrate.
-
 - **M3**: if there are many metaparameters used in the methodology, summarize these in a table.
 
 ## References [R]
@@ -43,5 +48,5 @@ Suggest extra guidelines in issues.
 ## Impact [I]
 
 - **I0**: make sure that the manuscripts are easy to find without the need to go through paywalls: release the latest preprints and the postprints on ArXiv and ResearchGate under a permissive license.
-- **I1**: make it easy for others to re-use the work. Release code, scripts, post processing snippets etc on github or similar, with detailed readme and user manuals. Make sure the code is runnable (ideally, provide a conda env and or even better a container image of some sort). If the data are small enough, host them on github too (possibly with git-lfs), so that the scripts can be run as is after a git-clone to reproduce the figures.
+- **I1**: make it easy for others to re-use the work. Release code, scripts, post processing snippets etc on github or similar, with detailed readme and user manuals. Make sure the code is runnable (ideally, provide a conda env and or even better a container image of some sort). If the data are small enough, host them on github too (possibly with git-lfs), so that the scripts can be run as is after a git-clone to reproduce the figures. Consider saying / writing that reasonable support will be provided through the issue tracking system on the github (or similar) repository.
 
