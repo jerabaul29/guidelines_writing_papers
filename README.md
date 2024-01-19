@@ -10,6 +10,7 @@ Suggest extra guidelines in issues.
 - **G1**: avoid overly heavy boilerplate. There has been a tradition for "writing everything assuming no backgroud knowledge" in some research fields, and as a consequence some articles end up containing lots of boilerplate. Try to refer to reference sources instead, and explain the main lines, but not the details, of background information that has been described again and again in the past.
 - **G3**: Be brief, be bright, be gone: try to convey the exact message you want to convey as effectively as possible. A shorter paper is easier to read, understand, etc. You goal is to convey your message, as clearly and effectively as possible. Do not waste your reader's time with useless details and un-necessary information.
 - **G4**: Have a clear story / red line.
+- **G5**: Try to be specific / technically to the point, without being pedantic; in particular, avoid pedantic formulations, unnecessary details and "poetic" adjectives, be terse and easy to read, avoid being "poetic".
 
 ## Style [S]
 
