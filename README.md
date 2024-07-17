@@ -27,6 +27,9 @@ Suggest extra guidelines in issues.
 - **S4**: write in "terse, professional" English: avoid spoken English, familiar expressions.
 - **S5**: use simple English, avoid complex / unusual words: most of your readers will not be native English speakers, so the simpler vocabulary you use, the easier to read.
 - **S6**: equations are part of the sentence: make sure that they end with a "."., of if with a ",", that the sentence continues on the next line.
+- **S7**: avoid passive form; this is harder to read and understand, and more verbose than simple direct form.
+- **S8**: avoid double negation; this is very confusing to read.
+- **S9**: if relevant, explain important points in several ways, using different and complementary perspectives on the problem. This is useful for the reader to understand the point, and is a way to hammer in key points in a constructive way.
 
 ## Figures [F]
 
