@@ -4,6 +4,12 @@ My personal guidelines writing papers - things that come up again and again. Cri
 
 Suggest extra guidelines in issues.
 
+## Meta [X]
+
+- **X0**: use a version control system to track changes: ideally git (possibly git + overleaf), at least overleaf with track changes when several authors edit the same document.
+- **X1**: prefer using LaTex whenever possible.
+- **X2**: use a spellchecking tool, and ideally a LLM language checking tool too.
+
 ## General [G]
 
 - **G0**: Keep It Stupid Simple. Make simple things simple and complicated things understandable. Reduce to simple ideas / first principles, even if this requires breaking things down in several steps.
@@ -27,6 +33,7 @@ Suggest extra guidelines in issues.
 - **F1**: have detailed captions for figures (and Tables). Ideally, it should be possible for someone with knowledge of the field to read just the abstract, conclusion, and figures + captions, and get a good understanding of the paper and results. Have detailed captions that have all the information needed to read and understand the figures without the need to read the text fishing for information, even if this results in long captions. Also have a short word of discussion (the "why" / "what this shows"), to explain what this figure shows and what its point is.
 - **F2**: make sure the figures are easy to read: large enough font, not overcrowded etc. Make sure to use good axis labels, lines labels, to take advantage of colors, markers, sizes, background shade, etc.
 - **F3**: make sure all figures and tables are referred to in the text.
+- **F4**: make good use of color / style / bold or italic to highlight what you want to show in the figure and make it easy to understand; think carefully about what message(s) you want the figure to contain.
 
 ## Appendix [A]
 
@@ -41,6 +48,9 @@ Suggest extra guidelines in issues.
 - **M3**: if there are many metaparameters used in the methodology, summarize these in a table.
 
 ## References [R]
+
+- **R1**: use a tool for generating the references; at least using bibtex and a bibliography .bib file (do not embedd the bibliographic entries into the manuscript, except at the last production step if required by the journal); ideally the .bib file could be exported from Zotero or similar, if not, the references can be exported individually from GScholar or similar (click on article -> all versions -> choose the relevant one and click "cite" -> BibTex).
+- **R2**: check for references duplicates.
 
 ## Abbreviations [B]
 
