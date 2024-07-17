@@ -9,6 +9,8 @@ Suggest extra guidelines in issues.
 - **X0**: use a version control system to track changes: ideally git (possibly git + overleaf), at least overleaf with track changes when several authors edit the same document.
 - **X1**: prefer using LaTex whenever possible.
 - **X2**: use a spellchecking tool, and ideally a LLM language checking tool too.
+- **X3**: when doing a major revision (for example, following a review round), generate a diff between the present and previous version, using ```latexdiff``` or similar.
+- **X4**: be consistent also in the source file of the manuscript; for example, use newlines / blank lines consistently between sections, around figures / tables / headings, etc.
 
 ## General [G]
 
@@ -17,6 +19,7 @@ Suggest extra guidelines in issues.
 - **G3**: Be brief, be bright, be gone: try to convey the exact message you want to convey as effectively as possible. A shorter paper is easier to read, understand, etc. You goal is to convey your message, as clearly and effectively as possible. Do not waste your reader's time with useless details and un-necessary information.
 - **G4**: Have a clear story / red line.
 - **G5**: Try to be specific / technically to the point, without being pedantic; in particular, avoid pedantic formulations, unnecessary details and "poetic" adjectives, be terse and easy to read, avoid being "poetic".
+- **G6**: use a consistent, well defined, non ambiguous nomenclature. If necessary, define specific nomenclature that helps to explain and understand the key points. Disambiguate concepts with appropriate terminology.
 
 ## Style [S]
 
