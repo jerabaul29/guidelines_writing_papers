@@ -53,6 +53,12 @@ Suggest extra guidelines in issues.
 - **M2**: if the methodology is better explained with a figure, create a figure to illutrate.
 - **M3**: if there are many metaparameters used in the methodology, summarize these in a table.
 
+## Supplementary materials [U]
+
+- **U1**: if relevant, use supplementary materials.
+- **U2**: make sure that supplementary materials are easy to find and high visibility: provide clear direct links to these in the paper / on the github repository. Consider having an appendix "External links" summarizing all links at the end of the paper.
+- **U3**: try to release supplementary materials on common well known platforms. For examples, if releasing a video, it will be seen a lot more if it is released on youtube (with proper title, caption, and link from the paper) in addition to being provided as a .zip, than if it is only released as a .zip alongside the paper on the publisher website.
+
 ## References [R]
 
 - **R1**: use a tool for generating the references; at least using bibtex and a bibliography .bib file (do not embedd the bibliographic entries into the manuscript, except at the last production step if required by the journal); ideally the .bib file could be exported from Zotero or similar, if not, the references can be exported individually from GScholar or similar (click on article -> all versions -> choose the relevant one and click "cite" -> BibTex).
@@ -75,3 +81,8 @@ Suggest extra guidelines in issues.
 - **P4**: have an advertisement cycle on linkedin / twitter etc that follows the publication process. Typically, it is useful to have i) one round of advertisement when the first preprint is released (with a notice, if relevant, that code + data will be released open upon publication in the peer reviewed literature), ii) one round of advertisement when the paper is published if so (with link to the code and data). This is redundant, but since there are usually many months of review between i) and ii), this is quite acceptable. Make sure to link to the preprint / code / data, tag co-authors, and include an eye catching summarizing picture. I would recommend linking to ResearchGate rather than ArXiv, since ResearchGate is a social network, so having a manuscript there with a lot of reads will snowball and increase its spreading further. Consider releasing during mid day Europe time in the middle of the week, to reach as many people as possible globally.
 - **P5**: try to avoid dead links at any step of the release / publication process. I.e. if code / data are kept private until a paper publication in peer review, make sure to i) create all the relevant data and code repositories, keeping them empty, with a notice that "code and data will be released upon publication in the peer reviewed literature", ii) link to these placeholders from the manuscript so there is no dead link. You can still iii) have a private "shadow repository" for revising and working on the code and data during the review process. When writing a post, remember to i) include an eye catching figure, that you describe briefly (saying what the main point / "thing to see" is) in the post, ii) start the post by a good catchphrase that explains why this is important and useful, iii) write something that is understandable, and puts into context, iv) write clearly what the novelty is v) have all relevant links (ResearchGate, ArXiv) included, vi) tag the relevant co-authors, vii) use keywords with #. Make sure to share the link with all co-authors by email.
 - **P6**: make sure to release all code and data, and make these very visible / accessible.
+
+## Follow up [O]
+
+- **O1**: offer to provide reasonable support on the github repository associated with the paper.
+- **O2**: if some typos / minor mistakes are found, issue a notice at the bottom of the readme on the github of the paper. Consider updating the ArXiv / ResearchGate versions. If the typo is small, it is generally not worth issuing a correction at the publisher - this is too much work, and the original paper will usually not get updated, it will just get a correction notice.
