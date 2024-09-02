@@ -34,6 +34,13 @@ Suggest extra guidelines in issues.
 - **S8**: avoid double negation; this is very confusing to read.
 - **S9**: if relevant, explain important points in several ways, using different and complementary perspectives on the problem. This is useful for the reader to understand the point, and is a way to hammer in key points in a constructive way.
 
+## LaTex [L]
+
+- **L1**: use version control for the Latex files: either git, or overleaf + git.
+- **L2**: if using overleaf with a pro account, remember to enable Writeful LLM language advices.
+- **L3**: use the right kind of citation: generally `\citep` (cite with parenthesis), or `\citet` (cite in text), otherwise `\cite`.
+- **L4**: treat the tex files like code: be consistent, have spaces and good indentation.
+
 ## Figures [F]
 
 - **F1**: have detailed captions for figures (and Tables). Ideally, it should be possible for someone with knowledge of the field to read just the abstract, conclusion, and figures + captions, and get a good understanding of the paper and results. Have detailed captions that have all the information needed to read and understand the figures without the need to read the text fishing for information, even if this results in long captions. Also have a short word of discussion (the "why" / "what this shows"), to explain what this figure shows and what its point is.
