@@ -4,6 +4,8 @@ My personal guidelines writing papers - things that come up again and again. Cri
 
 Suggest extra guidelines in issues.
 
+Maybe, one day, a linter could be implemented for some of these categories :) .
+
 ## Meta [X]
 
 - **X0**: use a version control system to track changes: ideally git (possibly git + overleaf), at least overleaf with track changes when several authors edit the same document.
