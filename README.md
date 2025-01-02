@@ -22,6 +22,7 @@ Maybe, one day, a linter could be implemented for some of these categories :) .
 - **G4**: Have a clear story / red line.
 - **G5**: Try to be specific / technically to the point, without being pedantic; in particular, avoid pedantic formulations, unnecessary details and "poetic" adjectives, be terse and easy to read, avoid being "poetic".
 - **G6**: use a consistent, well defined, non ambiguous nomenclature. If necessary, define specific nomenclature that helps to explain and understand the key points. Disambiguate concepts with appropriate terminology.
+- **G7**: do not speculate / come with ungrounded or bold statements / discuss "tricky" questions more than is necessary for the science you want to convey in the present paper. Be "strategic" and avoid un-necessary discussions that are not needed for the main scientific message of the present paper - this only creates issue during the review process, and may make the paper age less well. Be focused on the scientific message and goal.
 
 ## Style [S]
 
