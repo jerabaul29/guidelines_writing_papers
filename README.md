@@ -10,7 +10,7 @@ Maybe, one day, a linter could be implemented for some of these categories :) .
 
 - **X0**: use a version control system to track changes: ideally git (possibly git + overleaf), at least overleaf with track changes when several authors edit the same document.
 - **X1**: prefer using LaTex whenever possible.
-- **X2**: use a spellchecking tool, and ideally a LLM language checking tool too.
+- **X2**: use a spellchecking tool, and ideally a LLM language checking tool too. This can be done either using a LLM tool built into your editor (as a LSP for code / vim / helix / emacs etc, or as the writefull extension on overleaf), or by just copy pasting the tex content into copilot or chat-gpt and asking with proper prompt engineering to make the text better for a scientific paper. Remember that (anno 2025 at least) LLMs are not good at generating content (they will often / there is a risk that they lie, hallucinate, make up stuff, mix things up, etc), but they are very good at taking poorly written text and making it into nicely written text, keeping the same ideas. This is how LLMs should be used.
 - **X3**: when doing a major revision (for example, following a review round), generate a diff between the present and previous version, using ```latexdiff``` or similar.
 - **X4**: be consistent also in the source file of the manuscript; for example, use newlines / blank lines consistently between sections, around figures / tables / headings, etc.
 
