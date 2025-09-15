@@ -113,3 +113,5 @@ Maybe, one day, a linter could be implemented for some of these categories :) .
 - **S:C2**: make it clear what ideas are novel and introduced by your paper, and what is repeating / re-formulating previous ideas.
 - **S:C3**: credit not only papers, but also code frameworks, libraries, dataset, discussions, grey literature, etc, that are relevant.
 - **S:C4**: credit (either inviting as co-authors, or in acknowledgement) third parties that have been key to make the paper possible: lab technicians / oceanographic research ships / grant officers.
+- **S:C5**: if using LLMs, acknowledge / disclose it in the Acknowledgment part or similar. This is both to be transparent, and also to be proactive in case LLM-detection software is run on your manuscript and gives a positive hit at some point in the future. A typical standard acknowledgement / disclosure paragraph can be along the lines of:
+    > "We have used LLM-powered tools to improve language quality and correctness. All the scientific content is the result of the work of the authors, and the authors checked and quality controlled all LLM-produced language edits."
