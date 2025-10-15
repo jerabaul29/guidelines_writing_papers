@@ -15,6 +15,30 @@ Maybe, one day, a linter could be implemented for some of these categories :) .
 - **F:X2**: use a spellchecking tool, and ideally a LLM language checking tool too. This can be done either using a LLM tool built into your editor (as a LSP for code / vim / helix / emacs etc, or as the writefull extension on overleaf), or by just copy pasting the tex content into copilot or chat-gpt and asking with proper prompt engineering to make the text better for a scientific paper. Remember that (anno 2025 at least) LLMs are not good at generating content (they will often / there is a risk that they lie, hallucinate, make up stuff, mix things up, etc), but they are very good at taking poorly written text and making it into nicely written text, keeping the same ideas. This is how LLMs should be used.
 - **F:X3**: when doing a major revision (for example, following a review round), generate a diff between the present and previous version, using ```latexdiff``` or similar.
 - **F:X4**: be consistent also in the source file of the manuscript; for example, use newlines / blank lines consistently between sections, around figures / tables / headings, etc.
+- **F:X5**: have "major versions" (typically corresponding to the versions you upload to preprint servers and / or send to the journal after different review rounds) into self contained folder in e.g. overleaf; this way, it is easy to quickly compare, look back at a version, do a diff, re-compile an old version, etc. Have each of these folders self contained and compiling on its own. This way, there are no inter-dependencies and you can re-compile easily in the exact state of an old submitted version; i.e., an organization like:
+```
+- v1_arxiv_first_submission
+   |- figs
+   |    |- my_fig_1.png
+   |    |- my_fig_2.png
+   |- style.sty
+   |- bibliography.bib
+   |- main.tex
+- v2_journal_first_submission
+   |- figs
+   |    |- my_fig_1.png
+   |    |- my_newfig_2.png
+   |- style.sty
+   |- bibliography.bib
+   |- main.tex
+- v3_journal_second_submission
+   |- figs
+   |    |- my_modifiedfig_1.png
+   |    |- my_newfig_2.png
+   |- style.sty
+   |- bibliography.bib
+   |- main.tex
+```
 
 ## General [F:G]
 
