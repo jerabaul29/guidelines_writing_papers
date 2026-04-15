@@ -62,6 +62,7 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 - **F:S7**: avoid passive form; this is harder to read and understand, and more verbose than simple direct form.
 - **F:S8**: avoid double negation; this is very confusing to read.
 - **F:S9**: if relevant, explain important points in several ways, using different and complementary perspectives on the problem. This is useful for the reader to understand the point, and is a way to hammer in key points in a constructive way.
+- **F:S10**: make sure that the information and sentences are well grouped into paragraphs, and that there are transitions between these. Nothing should "hang in the air", there should be logical transitions so the text flows well. Highlight these transitions as needed (using transition words like "as a consequence", "therefore", "by contrast", "however", etc).
 
 ## LaTex [F:L]
 
