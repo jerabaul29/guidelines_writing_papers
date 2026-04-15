@@ -94,6 +94,7 @@ This is integrated as a full Agentic AI workflow at: https://github.com/jerabaul
 - **F:F3**: make sure all figures and tables are referred to in the text.
 - **F:F4**: make good use of color / style / bold or italic to highlight what you want to show in the figure and make it easy to understand; think carefully about what message(s) you want the figure to contain.
 - **F:F5**: use colorblind-friendly palettes (e.g., Okabe-Ito, viridis, or similar perceptually uniform palettes). Avoid relying on red/green contrast alone to convey information. This ensures the figures are accessible to a wider audience.
+- **F:F6**: make sure to illustrate important points with a figure - a figure is worth 1000 words, and many readers just skim through the paper + look at just the figures at first. Make sure to spend good time thinking about how to design the best possible figures. The main point(s) of the paper should be understandable from the figures and their captions alone.
 
 ## Appendix [F:A]
 
