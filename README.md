@@ -6,6 +6,8 @@ Suggest extra guidelines in issues.
 
 I used to say that maybe, one day, a linter could be implemented for some of these categories - now this can just be fed into AI to ask it to enforce these guidelines :) .
 
+This is integrated as a full Agentic AI workflow at: https://github.com/jerabaul29/2026_template_paper_agentic_ai .
+
 # About the form / presentation of the writing [F]
 
 ## Meta [F:X]
