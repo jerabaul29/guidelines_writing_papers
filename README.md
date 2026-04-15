@@ -51,6 +51,18 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 - **F:G6**: use a consistent, well defined, non ambiguous nomenclature. If necessary, define specific nomenclature that helps to explain and understand the key points. Disambiguate concepts with appropriate terminology.
 - **F:G7**: do not speculate / come with ungrounded or bold statements / discuss "tricky" questions more than is necessary for the science you want to convey in the present paper. Be "strategic" and avoid un-necessary discussions that are not needed for the main scientific message of the present paper - this only creates issue during the review process, and may make the paper age less well. Be focused on the scientific message and goal.
 
+## Title [F:T]
+
+- **F:T1**: the title is the most-read part of the paper — make it count. It should be concise, specific, and informative: a reader should immediately understand the topic and scope of the paper from the title alone.
+- **F:T2**: make the title searchable: include the key technical terms that readers in the field would use when searching for papers on this topic.
+- **F:T3**: avoid vague or clickbait-style titles (e.g., "A novel approach to..."), and avoid overly long titles with excessive qualifiers. Aim for something crisp that stands on its own.
+
+## Abstract [F:Ab]
+
+- **F:Ab1**: the abstract is often the only part people read — it must be self-contained and fully convey the paper's contribution, even without reading the rest. Define all abbreviations used in it; do not assume the reader has read anything else.
+- **F:Ab2**: a good abstract typically covers: i) context / motivation (why this matters), ii) problem statement (what is being addressed), iii) approach (what was done), iv) key results (what was found, with concrete numbers if possible), v) conclusion / implications (why this is significant).
+- **F:Ab3**: the abstract should state the key result explicitly and concretely — avoid vague statements like "results are promising". Say what was achieved and by how much.
+
 ## Style [F:S]
 
 - **F:S0**: avoid strong adjectives / hyperboles, especially if vague: i.e. avoid qualificators like "very", "the most", etc, if not there is a clear factual reason for this (for example, comparing a few cases, and finding that one is "the most" of them is fine; saying that some diffuse / unspecific "thing" is "the most", is not fine).
@@ -59,11 +71,12 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 - **F:S3**: use consistent terminology. In literature, we like using different words to describe the same "thing", to avoid heavy, ugly repetitions. In scientific writing, the simpler the better, and a given "thing" should be referred consistently by the same word(s), even if this leads to repetitions.
 - **F:S4**: write in "terse, professional" English: avoid spoken English, familiar expressions.
 - **F:S5**: use simple English, avoid complex / unusual words: most of your readers will not be native English speakers, so the simpler vocabulary you use, the easier to read.
-- **F:S6**: equations are part of the sentence: make sure that they end with a "."., of if with a ",", that the sentence continues on the next line.
+- **F:S6**: equations are part of the sentence: make sure that they end with a ".", or if with a ",", that the sentence continues on the next line.
 - **F:S7**: avoid passive form; this is harder to read and understand, and more verbose than simple direct form.
 - **F:S8**: avoid double negation; this is very confusing to read.
 - **F:S9**: if relevant, explain important points in several ways, using different and complementary perspectives on the problem. This is useful for the reader to understand the point, and is a way to hammer in key points in a constructive way.
 - **F:S10**: make sure that the information and sentences are well grouped into paragraphs, and that there are transitions between these. Nothing should "hang in the air", there should be logical transitions so the text flows well. Highlight these transitions as needed (using transition words like "as a consequence", "therefore", "by contrast", "however", etc).
+- **F:S11**: use SI units consistently, and format numbers and units carefully: use a non-breaking space between a number and its unit, use consistent decimal separators, and avoid ambiguous notations. In LaTeX, the `siunitx` package is recommended for this.
 
 ## LaTex [F:L]
 
@@ -78,6 +91,7 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 - **F:F2**: make sure the figures are easy to read: large enough font, not overcrowded etc. Make sure to use good axis labels, lines labels, to take advantage of colors, markers, sizes, background shade, etc.
 - **F:F3**: make sure all figures and tables are referred to in the text.
 - **F:F4**: make good use of color / style / bold or italic to highlight what you want to show in the figure and make it easy to understand; think carefully about what message(s) you want the figure to contain.
+- **F:F5**: use colorblind-friendly palettes (e.g., Okabe-Ito, viridis, or similar perceptually uniform palettes). Avoid relying on red/green contrast alone to convey information. This ensures the figures are accessible to a wider audience.
 
 ## Appendix [F:A]
 
@@ -88,7 +102,7 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 ## Methodology [F:M]
 
 - **F:M1**: ideally, the methodology section should be enough to reproduce the methodology paper. In practice, it may be hard to condense many technical details in a methodology section. If this is the case, consider releasing code and data as supplementary materials.
-- **F:M2**: if the methodology is better explained with a figure, create a figure to illutrate.
+- **F:M2**: if the methodology is better explained with a figure, create a figure to illustrate.
 - **F:M3**: if there are many metaparameters used in the methodology, summarize these in a table.
 
 ## Supplementary materials [F:U]
@@ -101,10 +115,11 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 
 - **F:R1**: use a tool for generating the references; at least using bibtex and a bibliography .bib file (do not embedd the bibliographic entries into the manuscript, except at the last production step if required by the journal); ideally the .bib file could be exported from Zotero or similar, if not, the references can be exported individually from GScholar or similar (click on article -> all versions -> choose the relevant one and click "cite" -> BibTex).
 - **F:R2**: check for references duplicates.
+- **F:R3**: verify that all references are accurate: check that DOIs are valid, that the journal / venue / year / authors are correct, and that no fields are missing or garbled (a common issue when importing from GScholar). Do not trust bibtex entries blindly.
 
 ## Abbreviations [F:B]
 
-- **F:B1**: define the abbreviations the first time they are met, like: "Deep Reinforcement Learning (DRL)". After that, the DRL abbreviation can be used. Note that it may be a good idea to re-define the abbreviations in critical parts of the text, i.e. the conclusion, so that it can be read by itself without the need to look through the whole paper looking for their meaning.
+- **F:B1**: define the abbreviations the first time they are met, like: "Deep Reinforcement Learning (DRL)". After that, the DRL abbreviation can be used. Note that it may be a good idea to re-define the abbreviations in critical parts of the text, i.e. the conclusion, so that it can be read by itself without the need to look through the whole paper looking for their meaning. The abstract should also be self-contained: re-define all abbreviations used there, since the abstract is often read in isolation (e.g., in search results or databases).
 
 ## Impact [F:I]
 
@@ -113,8 +128,8 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 
 ## Publication [F:P]
 
-- **F:P1**: release the preprint on ArXiv / ResearchGate as soon as it is ready; this way this i) immediateley starts diffusing the ideas and concepts to the community, ii) establishes a public record and timestamp (to claim originality / first about the ideas). This is especially important as peer review can take months or years depending on the journal. Make sure to share the links / authorship claim links with all co-authors.
-- **F:P2**: update the ArXiv / ResearchGate manuscripts as new versions get rolled out, until the last "postprint" (i.e. last preprint after the review process has been done) is is uploaded. Even consider updating the postprint after publication of a peer reviewed paper if relevant. Both ArXiv and ResearchGate can store multiple updated versions of the same manuscript and make it easy to browse through versions.
+- **F:P1**: release the preprint on ArXiv / ResearchGate as soon as it is ready; this way this i) immediately starts diffusing the ideas and concepts to the community, ii) establishes a public record and timestamp (to claim originality / first about the ideas). This is especially important as peer review can take months or years depending on the journal. Make sure to share the links / authorship claim links with all co-authors.
+- **F:P2**: update the ArXiv / ResearchGate manuscripts as new versions get rolled out, until the last "postprint" (i.e. last preprint after the review process has been done) is uploaded. Even consider updating the postprint after publication of a peer reviewed paper if relevant. Both ArXiv and ResearchGate can store multiple updated versions of the same manuscript and make it easy to browse through versions.
 - **F:P3**: if relevant, consider publishing in traditional peer reviewed literature. Things to be aware of are i) costs ii) delays iii) copyrights. Usually, all journals are legally forced to accept that the authors release preprint and postprints as they want (since usually authors have full legal ownership of their preprint and postprint, as long as the journal has not done any work on these). This should be the case as long as no editing done by the journal (usually happening after the files are delivered for production) is included in the publicly released materials. I.e., a proofs edited by the journal is not allowed to release, but a postprint should be allowed to release.
 - **F:P4**: have an advertisement cycle on linkedin / twitter etc that follows the publication process. Typically, it is useful to have i) one round of advertisement when the first preprint is released (with a notice, if relevant, that code + data will be released open upon publication in the peer reviewed literature), ii) one round of advertisement when the paper is published if so (with link to the code and data). This is redundant, but since there are usually many months of review between i) and ii), this is quite acceptable. Make sure to link to the preprint / code / data, tag co-authors, and include an eye catching summarizing picture. I would recommend linking to ResearchGate rather than ArXiv, since ResearchGate is a social network, so having a manuscript there with a lot of reads will snowball and increase its spreading further. Consider releasing during mid day Europe time in the middle of the week, to reach as many people as possible globally.
 - **F:P5**: try to avoid dead links at any step of the release / publication process. I.e. if code / data are kept private until a paper publication in peer review, make sure to i) create all the relevant data and code repositories, keeping them empty, with a notice that "code and data will be released upon publication in the peer reviewed literature", ii) link to these placeholders from the manuscript so there is no dead link. You can still iii) have a private "shadow repository" for revising and working on the code and data during the review process. When writing a post, remember to i) include an eye catching figure, that you describe briefly (saying what the main point / "thing to see" is) in the post, ii) start the post by a good catchphrase that explains why this is important and useful, iii) write something that is understandable, and puts into context, iv) write clearly what the novelty is v) have all relevant links (ResearchGate, ArXiv) included, vi) tag the relevant co-authors, vii) use keywords with #. Make sure to share the link with all co-authors by email.
@@ -124,6 +139,14 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 
 - **F:O1**: offer to provide reasonable support on the github repository associated with the paper.
 - **F:O2**: if some typos / minor mistakes are found, issue a notice at the bottom of the readme on the github of the paper. Consider updating the ArXiv / ResearchGate versions. If the typo is small, it is generally not worth issuing a correction at the publisher - this is too much work, and the original paper will usually not get updated, it will just get a correction notice.
+
+## Response to reviewers [F:V]
+
+- **F:V1**: address every single point raised by every reviewer, without exception. Even if you disagree, acknowledge the point and explain your reasoning clearly and respectfully.
+- **F:V2**: structure the response letter clearly: quote each reviewer comment, then provide your response, and indicate what changes were made to the manuscript (with page / line numbers if possible).
+- **F:V3**: be respectful and constructive, even when reviewers are wrong or their comments are unclear. Thank them for their time and their feedback, including negative feedback.
+- **F:V4**: when making changes to the manuscript in response to a review, make these changes clearly visible (e.g., highlighted in the revised manuscript, or described precisely in the response letter). Use `latexdiff` or similar to generate a diff for the editor.
+- **F:V5**: if you disagree with a reviewer comment and choose not to make the suggested change, explain your reasoning clearly and provide supporting arguments or references. This is perfectly acceptable.
 
 # About the content of the writing and the science contained [S]
 
@@ -139,5 +162,6 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 - **S:C2**: make it clear what ideas are novel and introduced by your paper, and what is repeating / re-formulating previous ideas.
 - **S:C3**: credit not only papers, but also code frameworks, libraries, dataset, discussions, grey literature, etc, that are relevant.
 - **S:C4**: credit (either inviting as co-authors, or in acknowledgement) third parties that have been key to make the paper possible: lab technicians / oceanographic research ships / grant officers.
-- **S:C5**: if using LLMs, acknowledge / disclose it in the Acknowledgment part or similar. This is both to be transparent, and also to be proactive in case LLM-detection software is run on your manuscript and gives a positive hit at some point in the future. A typical standard acknowledgement / disclosure paragraph can be along the lines of:
+- **S:C5**: define authorship carefully and early, in agreement with all co-authors. Consider using the CRediT (Contributor Roles Taxonomy) framework to specify each author's contribution explicitly (e.g., Conceptualization, Methodology, Software, Writing, etc.). This avoids misunderstandings and is increasingly required or encouraged by journals.
+- **S:C6**: if using LLMs, acknowledge / disclose it in the Acknowledgment part or similar. This is both to be transparent, and also to be proactive in case LLM-detection software is run on your manuscript and gives a positive hit at some point in the future. A typical standard acknowledgement / disclosure paragraph can be along the lines of:
     > "We have used LLM-powered tools to improve language quality and correctness. All the scientific content is the result of the work of the authors, and the authors checked and quality controlled all LLM-produced language edits."
