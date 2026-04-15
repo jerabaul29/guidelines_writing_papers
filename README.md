@@ -11,7 +11,7 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 ## Meta [F:X]
 
 - **F:X0**: use a version control system to track changes: ideally git (possibly git + overleaf), at least overleaf with track changes when several authors edit the same document.
-- **F:X1**: prefer using LaTex whenever possible.
+- **F:X1**: prefer using LaTeX whenever possible.
 - **F:X2**: use a spellchecking tool, and ideally a LLM language checking tool too. This can be done either using a LLM tool built into your editor (as a LSP for code / vim / helix / emacs etc, or as the writefull extension on overleaf), or by just copy pasting the tex content into copilot or chat-gpt and asking with proper prompt engineering to make the text better for a scientific paper. Remember that (anno 2025 at least) LLMs are not good at generating content (they will often / there is a risk that they lie, hallucinate, make up stuff, mix things up, etc), but they are very good at taking poorly written text and making it into nicely written text, keeping the same ideas. This is how LLMs should be used.
 - **F:X3**: when doing a major revision (for example, following a review round), generate a diff between the present and previous version, using ```latexdiff``` or similar.
 - **F:X4**: be consistent also in the source file of the manuscript; for example, use newlines / blank lines consistently between sections, around figures / tables / headings, etc.
@@ -49,7 +49,7 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 - **F:G4**: Have a clear story / red line.
 - **F:G5**: Try to be specific / technically to the point, without being pedantic; in particular, avoid pedantic formulations, unnecessary details and "poetic" adjectives, be terse and easy to read, avoid being "poetic".
 - **F:G6**: use a consistent, well defined, non ambiguous nomenclature. If necessary, define specific nomenclature that helps to explain and understand the key points. Disambiguate concepts with appropriate terminology.
-- **F:G7**: do not speculate / come with ungrounded or bold statements / discuss "tricky" questions more than is necessary for the science you want to convey in the present paper. Be "strategic" and avoid un-necessary discussions that are not needed for the main scientific message of the present paper - this only creates issue during the review process, and may make the paper age less well. Be focused on the scientific message and goal.
+- **F:G7**: do not speculate / come with ungrounded or bold statements / discuss "tricky" questions more than is necessary for the science you want to convey in the present paper. Be "strategic" and avoid un-necessary discussions that are not needed for the main scientific message of the present paper - this only creates issue during the review process, and may make the paper age less well. Be focused on the scientific message and goal. Relatedly, avoid scope creep: resist the urge to answer too many questions in a single paper; a focused paper with a clear contribution is easier to publish and more impactful than a broad one that tries to cover everything.
 
 ## Title [F:T]
 
@@ -78,9 +78,9 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 - **F:S10**: make sure that the information and sentences are well grouped into paragraphs, and that there are transitions between these. Nothing should "hang in the air", there should be logical transitions so the text flows well. Highlight these transitions as needed (using transition words like "as a consequence", "therefore", "by contrast", "however", etc).
 - **F:S11**: use SI units consistently, and format numbers and units carefully: use a non-breaking space between a number and its unit, use consistent decimal separators, and avoid ambiguous notations. In LaTeX, the `siunitx` package is recommended for this.
 
-## LaTex [F:L]
+## LaTeX [F:L]
 
-- **F:L1**: use version control for the Latex files: either git, or overleaf + git.
+- **F:L1**: use version control for the LaTeX files: either git, or overleaf + git.
 - **F:L2**: if using overleaf with a pro account, remember to enable Writeful LLM language advices.
 - **F:L3**: use the right kind of citation: generally `\citep` (cite with parenthesis), or `\citet` (cite in text), otherwise `\cite`.
 - **F:L4**: treat the tex files like code: be consistent, have spaces and good indentation.
@@ -88,7 +88,7 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 ## Figures [F:F]
 
 - **F:F1**: have detailed captions for figures (and Tables). Ideally, it should be possible for someone with knowledge of the field to read just the abstract, conclusion, and figures + captions, and get a good understanding of the paper and results. Have detailed captions that have all the information needed to read and understand the figures without the need to read the text fishing for information, even if this results in long captions. Also have a short word of discussion (the "why" / "what this shows"), to explain what this figure shows and what its point is.
-- **F:F2**: make sure the figures are easy to read: large enough font, not overcrowded etc. Make sure to use good axis labels, lines labels, to take advantage of colors, markers, sizes, background shade, etc.
+- **F:F2**: make sure the figures are easy to read: large enough font, not overcrowded etc. Make sure to use good axis labels, lines labels, to take advantage of colors, markers, sizes, background shade, etc. Also verify that the figures remain readable when printed in black and white, as this is still common in many venues.
 - **F:F3**: make sure all figures and tables are referred to in the text.
 - **F:F4**: make good use of color / style / bold or italic to highlight what you want to show in the figure and make it easy to understand; think carefully about what message(s) you want the figure to contain.
 - **F:F5**: use colorblind-friendly palettes (e.g., Okabe-Ito, viridis, or similar perceptually uniform palettes). Avoid relying on red/green contrast alone to convey information. This ensures the figures are accessible to a wider audience.
@@ -101,7 +101,7 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 
 ## Methodology [F:M]
 
-- **F:M1**: ideally, the methodology section should be enough to reproduce the methodology paper. In practice, it may be hard to condense many technical details in a methodology section. If this is the case, consider releasing code and data as supplementary materials.
+- **F:M1**: ideally, the methodology section should be enough to reproduce the methodology of the paper. In practice, it may be hard to condense many technical details in a methodology section. If this is the case, consider releasing code and data as supplementary materials.
 - **F:M2**: if the methodology is better explained with a figure, create a figure to illustrate.
 - **F:M3**: if there are many metaparameters used in the methodology, summarize these in a table.
 
@@ -149,6 +149,32 @@ I used to say that maybe, one day, a linter could be implemented for some of the
 - **F:V5**: if you disagree with a reviewer comment and choose not to make the suggested change, explain your reasoning clearly and provide supporting arguments or references. This is perfectly acceptable.
 
 # About the content of the writing and the science contained [S]
+
+## Introduction [S:I]
+
+- **S:I1**: structure the introduction as a funnel: start broad (the general field and why it matters), progressively narrow to the specific problem being addressed, and end with a clear statement of the paper's contributions and structure.
+- **S:I2**: state the contributions of the paper explicitly and concisely, ideally in a dedicated paragraph or bulleted list near the end of the introduction. The reader should know exactly what is new in this paper before moving on.
+- **S:I3**: cite and situate the work relative to the most relevant prior art. Do not over-cite (padding) or under-cite (missing important related work). The goal is to give the reader the context needed to appreciate the novelty and significance of the contribution.
+- **S:I4**: explain the structure of the manuscript at the end of the introduction: for example (adapt as needed): "In the following, we describe ... in section ... . Then we discuss ... in section ... . Finally, we discuss ... in section ... ."
+
+## Results [S:R]
+
+- **S:R1**: present results clearly and objectively. Separate the presentation of results from their interpretation: first show what was found, then discuss what it means.
+- **S:R2**: always quantify results: give numbers, uncertainties, effect sizes, or statistical significance as appropriate. Avoid qualitative-only descriptions of quantitative results (e.g., "the method performs better" — better by how much?).
+- **S:R3**: compare against appropriate baselines. Make sure that the baselines are fair and well-described, and that the comparison is meaningful (same conditions, same metrics, etc.).
+- **S:R4**: be honest and complete about results that did not go as expected or that show limitations of the method. Selective reporting undermines scientific integrity and tends to be caught during review anyway.
+
+## Discussion [S:D]
+
+- **S:D1**: interpret results in the light of the existing theory and literature: what do the results confirm, contradict, or add to what was already known?
+- **S:D2**: discuss the limitations of the work honestly and explicitly. Every study has limitations; acknowledging them increases credibility and helps the reader calibrate how far the conclusions can be generalized.
+- **S:D3**: suggest concrete directions for future work, grounded in the limitations and open questions identified in the paper. Avoid vague statements like "future work will explore this further"; be specific about what remains to be done and why.
+
+## Conclusion [S:N]
+
+- **S:N1**: the conclusion should succinctly summarize the key findings and contributions of the paper. It should not introduce new material or arguments.
+- **S:N2**: restate the main take-away message in plain language: what does this paper establish, and why does it matter? A reader who reads only the abstract and conclusion should come away with a correct and complete high-level understanding of the paper.
+- **S:N3**: define / recall abbreviations used in the conclusion, as it is often read in isolation (similar to the abstract).
 
 ## Theory [S:T]
 
