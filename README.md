@@ -4,7 +4,7 @@ My personal guidelines writing papers - things that come up again and again. Cri
 
 Suggest extra guidelines in issues.
 
-Maybe, one day, a linter could be implemented for some of these categories :) .
+I used to say that maybe, one day, a linter could be implemented for some of these categories - now this can just be fed into AI to ask it to enforce these guidelines :) .
 
 # About the form / presentation of the writing [F]
 
