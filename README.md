@@ -80,6 +80,7 @@ This is integrated as a full Agentic AI workflow at: https://github.com/jerabaul
 - **F:S10**: make sure that the information and sentences are well grouped into paragraphs, and that there are transitions between these. Nothing should "hang in the air", there should be logical transitions so the text flows well. Highlight these transitions as needed (using transition words like "as a consequence", "therefore", "by contrast", "however", etc).
 - **F:S11**: use SI units consistently, and format numbers and units carefully: use a non-breaking space between a number and its unit, use consistent decimal separators, and avoid ambiguous notations. In LaTeX, the `siunitx` package is recommended for this.
 - **F:S12**: about the writing of numbers e.g. "2" vs "two": write it out ("two") if it is in the text counting something that is not too large (two sensors, three datasets, four waves etc) and write out the number if it is a reference (Figure 2) or a measurement (80 cm ice, 2 m waves, etc.), or if the count is much greater than you can count on one hand (40 frequency bands). Words with hyphens, two-dimensional vs 2-dimensional are ok but I still, "two-dimensional" looks better.
+- **F:S13**: make sure figures, tables, etc, are referred to in the right order in the text - so in the text, fig. 1 appears before fig. 2 etc.
 
 ## LaTeX [F:L]
 
